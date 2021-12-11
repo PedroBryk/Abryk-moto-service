@@ -1,0 +1,165 @@
+body{
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    width: 10px;  
+}
+    
+::-webkit-scrollbar-thumb{
+    background: var(--laranja);
+    height: 10px;
+}
+    
+::-webkit-scrollbar-track {
+    background: var(--preto);    
+}
+
+.cabeçalho{
+    background-image: url('../img/cabeçalho__imagem-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.nav__cabeçalho{
+    background-color: var(--preto);
+}
+
+.cabeçalho__introduçao{
+    padding-top: 20%;
+    padding-left: 3%;
+}
+
+
+.cabeçalho__titulo{
+    font-family: 'arial-mt';
+    color: var(--branco);
+    font-size: 1em;
+    
+}
+
+.cabeçalho__titulo span{
+    font-family: 'arial-mt';
+    color: var(--laranja);
+    font-size: 1.5em;
+    
+}
+
+.cabeçalho__texto{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    width: 53%;
+
+}
+
+.sobre{
+    background-color: var(--preto);
+    height: 100vh;
+    width: 100vw;
+}
+
+.titulo{
+    font-family: 'arial-mt';
+    color: var(--laranja);
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 4%;
+}
+
+.quem__somos-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sobre__texto{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.quem__somos-texto, .objetivo__texto, .diferencial__texto{
+    background-color: var(--laranja);
+    color: var(--preto);
+    border-radius: 15px 50px 30px;
+    margin-top: 3%;
+    width: 75%;
+    padding: 2%;
+    text-align: center;
+    line-height: 1.9;
+}
+
+.destaque{
+    color: var(--branco);
+    font-family: 'arial-mt';
+}
+
+.quem__somos-img{
+    width: 82%;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.pesquisa{
+    padding-top: 4%;
+    display: grid;
+    place-items: center;
+}
+
+.filtro{
+    width: 40%;
+    height: 35px;
+    background-color: black;
+    border: solid 1px #f95a06;
+    color: #f95a06;
+}
+
+.serviços-root{
+    background-image: url('../img/imagem__section-serviços.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.serviços{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1%;
+    margin-left: 8%;
+    width: 90%;
+    flex-wrap: wrap;
+}
+
+.serviço{
+    width: 30%;
+    list-style: none;
+    color: #f95a06;
+    display: flex;
+    margin-top: 8%;
+}
+
+.serviço h3{
+    margin-left: 2%;
+}
+
+.invisivel{
+    display: none;
+}
+
+.serviços-recentes{
+    background-color: var(--preto_claro);
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
