@@ -1,0 +1,26 @@
+.sobre{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--preto);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.img-background{
+    background-image: url(../img/img-back.png);
+    position: absolute;
+    width: 429px;
+    height: 612px;
+    margin-left: 0;
+    background-repeat: no-repeat;
+}
+
+.sobre-texto{
+    width: 50%;
+    margin-left: 40%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    
+}

@@ -1,0 +1,22 @@
+.principais-servicos{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--preto);
+}
+
+.titulo-servicos{
+    padding-top: 5%;
+}
+
+.servico-titulo{
+    font-family: 'arial-mt';
+    font-size: 45px;
+    color: var(--laranja);
+    text-align: center;
+}
+
+.servico-texto{
+    font-size: 24px;
+    color: var(--cinzaclaro);
+    text-align: center;
+}

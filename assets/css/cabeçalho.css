@@ -1,0 +1,41 @@
+.cabeçalho{
+    background-image: url('../img/cabeçalho__imagem-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+.nav__cabeçalho{
+    background-color: var(--preto);
+}
+
+.cabeçalho__introduçao{
+    padding-top: 20%;
+    padding-left: 3%;
+}
+
+
+.cabeçalho__titulo{
+    font-family: 'arial-mt';
+    color: var(--branco);
+    font-size: 1em;
+    
+}
+
+.cabeçalho__titulo span{
+    font-family: 'arial-mt';
+    color: var(--laranja);
+    font-size: 1.5em;
+    
+}
+
+.cabeçalho__texto{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    width: 53%;
+
+}
