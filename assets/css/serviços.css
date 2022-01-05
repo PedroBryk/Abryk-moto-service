@@ -2,6 +2,7 @@
     width: 100vw;
     height: 100vh;
     background-color: var(--preto);
+    
 }
 
 .titulo-servicos{
@@ -19,4 +20,83 @@
     font-size: 24px;
     color: var(--cinzaclaro);
     text-align: center;
+}
+
+.servicos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 3%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.servico{
+    cursor: pointer;
+    text-align: center;
+    color: var(--cinzaclaro);
+}
+
+.card-main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-back{
+    content: '';
+    background-image: url(../img/imagem-motoqueiro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    right: 0;
+    width: 295px;
+    height: 439px;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-container{
+    margin-top: 4%;
+    width: 20%;
+    height: 324px;
+    background-color: var(--cinzaescuro);
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px 0px var(--laranja);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-image{
+    background-image: url(../img/manutençao.png);
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
+.card-nome{
+    color: var(--laranja);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-button{
+    height: 40px;
+    width: 70%;
+    border: none;
+    background: var(--laranja);
+    box-shadow: 8px 6px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    color: var(--pretoclaro);
+    font-weight: bold;
+    transition: .3s;
+}
+
+.card-button:hover{
+    background-color: var(--preto);
+    color: var(--cinzaclaro);
 }
